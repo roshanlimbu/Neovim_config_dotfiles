@@ -59,6 +59,7 @@ return require('packer').startup(function(use)
     "iamcco/markdown-preview.nvim",
     run = function() vim.fn["mkdp#util#install"]() end,
   })
+  use 'akinsho/toggleterm.nvim'
   use 'lukas-reineke/indent-blankline.nvim' -- indent line 
   use 'lewis6991/gitsigns.nvim' -- git 
   use 'folke/which-key.nvim' --Which-Key
