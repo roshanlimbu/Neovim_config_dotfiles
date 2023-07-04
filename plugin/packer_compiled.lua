@@ -145,11 +145,6 @@ _G.packer_plugins = {
     path = "C:\\Users\\Roshan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\markdown-preview.nvim",
     url = "https://github.com/iamcco/markdown-preview.nvim"
   },
-  ["neoscroll.nvim"] = {
-    loaded = true,
-    path = "C:\\Users\\Roshan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\neoscroll.nvim",
-    url = "https://github.com/karb94/neoscroll.nvim"
-  },
   ["neosolarized.nvim"] = {
     loaded = true,
     path = "C:\\Users\\Roshan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\neosolarized.nvim",
@@ -219,6 +214,16 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\Roshan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\toggleterm.nvim",
     url = "https://github.com/akinsho/toggleterm.nvim"
+  },
+  undotree = {
+    loaded = true,
+    path = "C:\\Users\\Roshan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\undotree",
+    url = "https://github.com/mbbill/undotree"
+  },
+  ["vim-fugitive"] = {
+    loaded = true,
+    path = "C:\\Users\\Roshan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-fugitive",
+    url = "https://github.com/tpope/vim-fugitive"
   },
   ["which-key.nvim"] = {
     loaded = true,

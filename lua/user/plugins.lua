@@ -53,7 +53,7 @@ return require('packer').startup(function(use)
         require('Comment').setup()
     end
 } -- for comment usig 'gc'
-  use 'karb94/neoscroll.nvim' -- smooth scrolling
+  -- use 'karb94/neoscroll.nvim' -- smooth scrolling
   use 'folke/zen-mode.nvim' -- zen mode
   use({
     "iamcco/markdown-preview.nvim",
@@ -65,6 +65,8 @@ return require('packer').startup(function(use)
   use 'lewis6991/gitsigns.nvim' -- git 
   use 'folke/which-key.nvim' --Which-Key
   use 'ThePrimeagen/harpoon' -- harpoon
+  use 'mbbill/undotree' -- undotree
+  use 'tpope/vim-fugitive'
   -- Put this at the end after all plugins
   if packer_bootstrap then
     require('packer').sync()
