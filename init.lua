@@ -1,4 +1,5 @@
 require"user.alpha"
+require"user.icons"
 require"user.options"
 require"user.plugins"
 require"user.keymaps"

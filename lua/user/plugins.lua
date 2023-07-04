@@ -34,7 +34,7 @@ return require('packer').startup(function(use)
   use {'neoclide/coc.nvim', branch = 'release'} -- For code Completion
   use {'fannheyward/coc-marketplace'} -- coc marketplace for extension
 
-  use 'kyazdani42/nvim-web-devicons' -- File icons
+  -- use 'kyazdani42/nvim-web-devicons' -- File icons
   use 'nvim-telescope/telescope.nvim'
   use 'nvim-telescope/telescope-file-browser.nvim'
   use 'windwp/nvim-autopairs'
@@ -59,6 +59,7 @@ return require('packer').startup(function(use)
     "iamcco/markdown-preview.nvim",
     run = function() vim.fn["mkdp#util#install"]() end,
   })
+  use 'nvim-tree/nvim-web-devicons'
   use 'akinsho/toggleterm.nvim'
   use 'lukas-reineke/indent-blankline.nvim' -- indent line 
   use 'lewis6991/gitsigns.nvim' -- git 
