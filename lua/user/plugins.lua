@@ -62,7 +62,7 @@ return require('packer').startup(function(use)
   use 'nvim-tree/nvim-web-devicons'
   use 'akinsho/toggleterm.nvim'
   use 'lukas-reineke/indent-blankline.nvim' -- indent line 
-  use 'lewis6991/gitsigns.nvim' -- git 
+  -- use 'lewis6991/gitsigns.nvim' -- git 
   use 'folke/which-key.nvim' --Which-Key
   use 'ThePrimeagen/harpoon' -- harpoon
   use 'mbbill/undotree' -- undotree
