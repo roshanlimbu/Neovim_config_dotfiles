@@ -120,6 +120,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\Roshan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\gruvbox",
     url = "https://github.com/morhetz/gruvbox"
   },
+  harpoon = {
+    loaded = true,
+    path = "C:\\Users\\Roshan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\harpoon",
+    url = "https://github.com/ThePrimeagen/harpoon"
+  },
   ["indent-blankline.nvim"] = {
     loaded = true,
     path = "C:\\Users\\Roshan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\indent-blankline.nvim",

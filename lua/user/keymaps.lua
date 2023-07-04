@@ -91,7 +91,7 @@ keymap("n", "<leader>fc", "<cmd>Telescope grep_string<cr>", opts)
 keymap("n", "<leader>fb", "<cmd>Telescope buffers<cr>", opts)
 
 
-keymap("n", "<leader>zn", ":ZenMode <CR>", opts)
+keymap("n", "<leader>zn", ":ZenMode <CR>", opts) -- zenmode
 
 -- ys w and "", () , '' for Surrounding using vim surround
 -- ds "", () , '' for deleting the Surroundin

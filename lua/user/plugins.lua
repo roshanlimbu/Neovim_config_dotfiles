@@ -64,6 +64,7 @@ return require('packer').startup(function(use)
   use 'lukas-reineke/indent-blankline.nvim' -- indent line 
   use 'lewis6991/gitsigns.nvim' -- git 
   use 'folke/which-key.nvim' --Which-Key
+  use 'ThePrimeagen/harpoon' -- harpoon
   -- Put this at the end after all plugins
   if packer_bootstrap then
     require('packer').sync()
