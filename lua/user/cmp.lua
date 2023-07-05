@@ -164,9 +164,9 @@ cmp.setup {
 
       -- NOTE: order matters
       vim_item.menu = ({
+        luasnip = "",
         nvim_lsp = "",
         nvim_lua = "",
-        luasnip = "",
         buffer = "",
         path = "",
         emoji = "",

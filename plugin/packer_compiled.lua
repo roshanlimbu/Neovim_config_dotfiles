@@ -80,10 +80,20 @@ _G.packer_plugins = {
     path = "C:\\Users\\Roshan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\Comment.nvim",
     url = "https://github.com/numToStr/Comment.nvim"
   },
+  LuaSnip = {
+    loaded = true,
+    path = "C:\\Users\\Roshan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\LuaSnip",
+    url = "https://github.com/L3MON4D3/LuaSnip"
+  },
   ["alpha-nvim"] = {
     loaded = true,
     path = "C:\\Users\\Roshan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\alpha-nvim",
     url = "https://github.com/goolord/alpha-nvim"
+  },
+  ["awesome-vim-colorschemes"] = {
+    loaded = true,
+    path = "C:\\Users\\Roshan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\awesome-vim-colorschemes",
+    url = "https://github.com/rafi/awesome-vim-colorschemes"
   },
   ["cmp-buffer"] = {
     loaded = true,
@@ -95,20 +105,25 @@ _G.packer_plugins = {
     path = "C:\\Users\\Roshan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
-  ["coc-marketplace"] = {
+  ["cmp-nvim-lua"] = {
     loaded = true,
-    path = "C:\\Users\\Roshan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\coc-marketplace",
-    url = "https://github.com/fannheyward/coc-marketplace"
+    path = "C:\\Users\\Roshan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-nvim-lua",
+    url = "https://github.com/hrsh7th/cmp-nvim-lua"
   },
-  ["coc.nvim"] = {
+  ["cmp-path"] = {
     loaded = true,
-    path = "C:\\Users\\Roshan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\coc.nvim",
-    url = "https://github.com/neoclide/coc.nvim"
+    path = "C:\\Users\\Roshan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-path",
+    url = "https://github.com/hrsh7th/cmp-path"
   },
-  ["colorbuddy.nvim"] = {
+  cmp_luasnip = {
     loaded = true,
-    path = "C:\\Users\\Roshan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\colorbuddy.nvim",
-    url = "https://github.com/tjdevries/colorbuddy.nvim"
+    path = "C:\\Users\\Roshan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp_luasnip",
+    url = "https://github.com/saadparwaiz1/cmp_luasnip"
+  },
+  ["friendly-snippets"] = {
+    loaded = true,
+    path = "C:\\Users\\Roshan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\friendly-snippets",
+    url = "https://github.com/rafamadriz/friendly-snippets"
   },
   gruvbox = {
     loaded = true,
@@ -125,6 +140,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\Roshan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\indent-blankline.nvim",
     url = "https://github.com/lukas-reineke/indent-blankline.nvim"
   },
+  ["lsp-zero.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\Roshan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lsp-zero.nvim",
+    url = "https://github.com/VonHeikemen/lsp-zero.nvim"
+  },
   ["lspkind-nvim"] = {
     loaded = true,
     path = "C:\\Users\\Roshan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lspkind-nvim",
@@ -140,10 +160,15 @@ _G.packer_plugins = {
     path = "C:\\Users\\Roshan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\markdown-preview.nvim",
     url = "https://github.com/iamcco/markdown-preview.nvim"
   },
-  ["neosolarized.nvim"] = {
+  ["mason-lspconfig.nvim"] = {
     loaded = true,
-    path = "C:\\Users\\Roshan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\neosolarized.nvim",
-    url = "https://github.com/svrana/neosolarized.nvim"
+    path = "C:\\Users\\Roshan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\mason-lspconfig.nvim",
+    url = "https://github.com/williamboman/mason-lspconfig.nvim"
+  },
+  ["mason.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\Roshan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\mason.nvim",
+    url = "https://github.com/williamboman/mason.nvim"
   },
   ["nvim-autopairs"] = {
     loaded = true,
@@ -194,6 +219,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\Roshan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
+  },
+  ["rose-pine"] = {
+    loaded = true,
+    path = "C:\\Users\\Roshan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\rose-pine",
+    url = "https://github.com/rose-pine/neovim"
   },
   ["telescope-file-browser.nvim"] = {
     loaded = true,
