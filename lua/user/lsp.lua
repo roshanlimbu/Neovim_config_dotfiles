@@ -54,6 +54,14 @@ lsp.on_attach(function(client, bufnr)
   vim.keymap.set("i", "<C-h>", function() vim.lsp.buf.signature_help() end, opts)
 end)
 
+cmp.setup({
+  sources = {
+    {name = 'path'},
+    {name = 'nvim_lsp'},
+    {name = 'buffer', keyword_length = 3},
+    {name =  'luasnip', keyword_length = 2},
+  }
+})
 lsp.setup()
 
 vim.diagnostic.config({
